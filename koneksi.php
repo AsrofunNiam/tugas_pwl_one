@@ -1,11 +1,14 @@
 <?php
-$server   = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'mahasiswa';
+// $server   = '127.0.0.1';
+// $username = 'root';
+// $password = '';
+// $database = 'mahasiswa';
 
-$conn = mysqli_connect($server, $username, $password, $database);
-if (!$conn) {
-    die('Gagal terhubung: ' . mysqli_connect_error());
+$con = new mysqli('localhost', 'root','','test');
+if ($con) {
+    echo "Connection Success";
+} else{
+    die('Failed connection: ' . mysqli_connect_error());
 }
+
 ?>
