@@ -18,7 +18,7 @@
       <th>Mata Kuliah</th>
       <th>Jumlah SKS</th>
       <th>Status</th>
-      <th>Keterangan</th>
+      <th>Course</th>
       <th>Actions</th>
     </tr>
   </thead>
@@ -45,10 +45,10 @@
       <td>
         <span class="badge badge-success rounded-pill d-inline">Active</span>
       </td>
-      <td>Dosen</td>
+      <td>Online</td>
       <td>
         <button type="button" class="btn btn-link btn-sm btn-rounded">
-          View Detail
+          View Materi
         </button>
       </td>
     </tr>
@@ -76,14 +76,14 @@
               >Onboarding</span
           >
       </td>
-      <td>Dosen</td>
+      <td>Hybrid</td>
       <td>
         <button
                 type="button"
                 class="btn btn-link btn-rounded btn-sm fw-bold"
                 data-mdb-ripple-color="dark"
                 >
-          View Detail
+          View Materi
         </button>
       </td>
     </tr>
@@ -109,14 +109,14 @@
       <td>
         <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
       </td>
-      <td>Dosen</td>
+      <td>Offline</td>
       <td>
         <button
                 type="button"
                 class="btn btn-link btn-rounded btn-sm fw-bold"
                 data-mdb-ripple-color="dark"
                 >
-          View Detail
+          View Materi
         </button>
       </td>
     </tr>

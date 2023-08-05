@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Dashboard</title>
   </head>
-  <body>
-    <!-- top navigation bar -->
+  <body> 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <button
@@ -70,7 +69,7 @@
               <ul class="dropdown-menu dropdown-menu-end">
                 <li><a class="dropdown-item" href="#">Profile</a></li>
                 <li><a class="dropdown-item" href="#">Setting</a></li>
-                <li><a class="dropdown-item" href="#">Log Out</a></li>
+                <li><a class="dropdown-item" href="login_page.php">Log Out</a></li>
                 <li>
                   <a class="dropdown-item" href="#">Something  Campus</a>
                 </li>
@@ -180,10 +179,10 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card bg-warning text-dark h-100">
+            <div class="card bg-warning text-dark h-100"> 
               <div class="card-body py-5">Mata Kuliah  </div>
               <div class="card-footer d-flex">
-                View Details
+              <a href="jadwal_kuliah.php"> View Details</a>
                 <span class="ms-auto">
                   <i class="bi bi-chevron-right"></i>
                 </span>
@@ -218,7 +217,7 @@
             <div class="card h-100">
               <div class="card-header">
                 <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span>
-                Indext Nilai Asrofun Niam
+                Index Nilai Asrofun Niam
               </div>
               <div class="card-body">
                 <canvas class="chart" width="400" height="200"></canvas>
@@ -253,54 +252,45 @@
                     <thead>
                       <tr>
                         <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Age</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
+                        <th>NPM</th>
+                        <th>kelas</th>
+                        <th>Status</th>
+                        <th>Joint Date </th>
+                        <th>Specialist</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>61</td>
+                        <td>Roby Khairon</td>
+                        <td>202043500718</td>
+                        <td>X5H</td>
+                        <td>Front End Developer</td>
                         <td>2011/04/25</td>
-                        <td>$320,800</td>
+                        <td>Mobile</td>
                       </tr>
                       <tr>
-                        <td>Garrett Winters</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>63</td>
-                        <td>2011/07/25</td>
-                        <td>$170,750</td>
+                        <td>Andri Setiawan</td>
+                        <td>2020435007123</td>
+                        <td>X5H</td>
+                        <td>Back End Developer</td>
+                        <td>2011/04/25</td>
+                        <td>Golang</td>
                       </tr>
                       <tr>
-                        <td>Ashton Cox</td>
-                        <td>Junior Technical Author</td>
-                        <td>San Francisco</td>
-                        <td>66</td>
-                        <td>2009/01/12</td>
-                        <td>$86,000</td>
+                        <td>Asrofun Niam</td>
+                        <td>202043500720</td>
+                        <td>X5H</td>
+                        <td>Front End Developer</td>
+                        <td>2011/04/25</td>
+                        <td>Mobile</td>
                       </tr>
                       <tr>
-                        <td>Cedric Kelly</td>
-                        <td>Senior Javascript Developer</td>
-                        <td>Edinburgh</td>
-                        <td>22</td>
-                        <td>2012/03/29</td>
-                        <td>$433,060</td>
-                      </tr>
-                      
-                      <tr>
-                        <td>Donna Snider</td>
-                        <td>Customer Support</td>
-                        <td>New York</td>
-                        <td>27</td>
-                        <td>2011/01/25</td>
-                        <td>$112,000</td>
+                        <td>Budi Sunarso</td>
+                        <td>202043500745</td>
+                        <td>X5H</td>
+                        <td>Data Analyst</td>
+                        <td>2011/04/25</td>
+                        <td>Mathematic</td>
                       </tr>
                     </tbody>
                     <tfoot>
