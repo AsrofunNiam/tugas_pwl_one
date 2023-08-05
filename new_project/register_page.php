@@ -1,27 +1,27 @@
-<?php 
-include 'connect.php';
-if (isset($_POST['submit'])) {
-    $npm = $_POST['input_npm'];
-    $name = $_POST['input_name'];
-    $email = $_POST['input_email'];
-    $class = $_POST['input_class'];
-    $number_mobile = $_POST['input_number'];
-    $password = $_POST['input_password'];
+<!-- <?php 
+// include 'connect.php';
+// if (isset($_POST['submit'])) {
+//     $npm = $_POST['input_npm'];
+//     $name = $_POST['input_name'];
+//     $email = $_POST['input_email'];
+//     $class = $_POST['input_class'];
+//     $number_mobile = $_POST['input_number'];
+//     $password = $_POST['input_password'];
     
-    $sql="INSERT INTO datamhs (npm, name, email, class, numbermobile, password) 
-    VALUES('$npm','$name', '$email', '$class','$number_mobile','$password') ";
-    $result= mysqli_query($con, $sql);
-    if ($result) {
-        echo "Data Insert success";
-        // header('location: login_page.php');
-    } else{
-        die(mysqli_error($con));
+//     $sql="INSERT INTO datamhs (npm, name, email, class, numbermobile, password) 
+//     VALUES('$npm','$name', '$email', '$class','$number_mobile','$password') ";
+//     $result= mysqli_query($con, $sql);
+//     if ($result) {
+//         echo "Data Insert success";
+//         // header('location: login_page.php');
+//     } else{
+//         die(mysqli_error($con));
 
 
-    }
-}
+//     }
+// }
 
-?>
+?> -->
 
 
 
